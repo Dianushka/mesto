@@ -1,0 +1,17 @@
+.profile__info {
+    display: grid;
+    grid-template-areas:
+        "title button"
+        "subtitle subtitle";
+    grid-template-columns: 1fr 24px;
+    max-width: 336px;
+    grid-column-gap: 16px;
+    grid-row-gap:18px;
+}
+
+@media screen and (max-width:600px) {
+    .profile__info {
+        max-width: 282px;
+        gap: 14px 10px;
+    }
+}

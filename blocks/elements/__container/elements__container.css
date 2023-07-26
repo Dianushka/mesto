@@ -1,0 +1,12 @@
+.elements__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 21px;
+    padding-bottom: 31px;
+    padding-right: 15px;
+}

@@ -1,0 +1,7 @@
+.popup__field {
+    padding-bottom: 30px;
+}
+
+.popup__field:last-child {
+    padding-bottom: 0;
+}

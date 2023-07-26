@@ -1,0 +1,19 @@
+.elements__like-pic {
+    background-color: #fff;
+    background-image: url(../mesto/image/Vector\ \(2\).png);
+    background-repeat: no-repeat;
+    border: none;
+    box-sizing: content-box;
+    width: 22px;
+    height: 19px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.elements__like-pic:active {
+    background-image: url(../mesto/image/Union.png);
+}
+
+.elements__like-pic:hover {
+    opacity: .7;
+}

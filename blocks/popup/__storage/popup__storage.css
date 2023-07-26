@@ -1,0 +1,11 @@
+.popup__storage {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px;
+}
+
+@media screen and (max-width:540px) {
+    .popup__storage {
+        padding-bottom: 45px;
+    }
+}

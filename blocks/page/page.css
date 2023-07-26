@@ -1,0 +1,11 @@
+.page {
+    font-family: 'Inter', Arial, sans-serif;
+    box-sizing: border-box;
+    object-fit: contain;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
