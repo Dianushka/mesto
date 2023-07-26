@@ -3,7 +3,10 @@
     max-width: 880px;
     justify-content: flex-start;
     border-bottom: 1px solid rgba(84, 84, 84, 1);
-    margin: 45px auto 0;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width:905px) {
