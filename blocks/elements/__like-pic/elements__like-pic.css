@@ -11,7 +11,7 @@
 }
 
 .elements__like-pic:active {
-    background-image: url(../../../../mesto/image/like__black.svg)
+    background-image: url(../../../../mesto/image/like__black.svg);
 }
 
 .elements__like-pic:hover {
