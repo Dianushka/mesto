@@ -3,9 +3,8 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 25px;
     padding-left: 21px;
-    padding-bottom: 31px;
     padding-right: 15px;
+    min-height: 74px;
+    margin: 0 auto;
 }

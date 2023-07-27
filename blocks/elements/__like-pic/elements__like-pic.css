@@ -1,6 +1,6 @@
 .elements__like-pic {
     background-color: #fff;
-    background-image: url(../mesto/image/Vector\ \(2\).png);
+    background-image: url(../../../../mesto/image/like.svg);
     background-repeat: no-repeat;
     border: none;
     box-sizing: content-box;
@@ -11,9 +11,9 @@
 }
 
 .elements__like-pic:active {
-    background-image: url(../mesto/image/Union.png);
+    background-image: url(../../../../mesto/image/like__black.svg)
 }
 
 .elements__like-pic:hover {
-    opacity: .7;
+    opacity: .5;
 }

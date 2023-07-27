@@ -4,88 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/pages.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Место</title>
 </head>
 
 <body class="body">
     <div class="page">
         <header class="header">
-            <img class="header__logo" alt="логотип сайта" src="./image/logo (1).png">
+            <img class="header__logo" alt="логотип сайта" src="./image/logo_white.svg">
         </header>
-        <section class="profile">
-            <div class="profile__avatar">
+        <main class="main">
+            <section class="profile">
                 <img class="profile__avatar" alt='аватар пользователя' src='./image/Avatar.png'>
-            </div>
-            <div class="profile__info">
-                <h1 class="profile__title">Жaк-Ив-Кусто</h1>
-                <h2 class="profile__subtitle">Исследователь океана</h2>
-                <button type="button" class="profile__edit-button"></button>
-            </div>
-            <button type="button" class="profile__add-button"></button>
-        </section>
-        <section class="elements">
-            <ul class="elements__list">
-                <li class="elements__item"><img src="./image/карачаевск.png.png" alt="пейзаж Карачаевска"
-                        class="elements__image">
-                    <div class="elements__container">
-                        <div class="elements__title">Карачаевск</div>
-                        <button type="button" class="elements__like-pic"></button>
-                    </div>
-                </li>
-                <li class="elements__item"><img src="./image/эльбрус.JPG" alt="пейзаж горы Эльбрус"
-                        class="elements__image">
-                    <div class="elements__container">
-                        <div class="elements__title">Гора Эльбрус</div>
-                        <button type="button" class="elements__like-pic"></button>
-                    </div>
-                </li>
-                <li class="elements__item"><img src="./image/домбай.jpg" alt="пейзаж Домбая" class="elements__image">
-                    <div class="elements__container">
-                        <div class="elements__title">Домбай</div>
-                        <button type="button" class="elements__like-pic"></button>
-                    </div>
-                </li>
-                <li class="elements__item"><img src="./image/липецк (1).jpeg" alt="пейзаж Липецка"
-                        class="elements__image">
-                    <div class="elements__container">
-                        <div class="elements__title">Липецк</div>
-                        <button type="button" class="elements__like-pic"></button>
-                    </div>
-                </li>
-                <li class="elements__item"><img src="./image/piter1.jpg" alt="пейзаж Питера" class="elements__image">
-                    <div class="elements__container">
-                        <div class="elements__title">Питер</div>
-                        <button type="button" class="elements__like-pic"></button>
-                    </div>
-                </li>
-                <li class="elements__item"><img src="./image/карачаевск.png.png" alt="пейзаж Карачаево-Черкессии"
-                        class="elements__image">
-                    <div class="elements__container">
-                        <div class="elements__title">Карачаево-Черкессия</div>
-                        <button type="button" class="elements__like-pic"></button>
-
-                    </div>
-                </li>
-            </ul>
-        </section>
+                <div class="profile__info">
+                    <h1 class="profile__title">Жaк-Ив-Кусто</h1>
+                    <p class="profile__subtitle">Исследователь океана</p>
+                    <button type="button" class="profile__edit-button"></button>
+                </div>
+                <button type="button" class="profile__add-button"></button>
+            </section>
+            <section class="elements">
+                <ul class="elements__list">
+                    <li class="elements__item"><img src="./image/карачаевск.png.png" alt="пейзаж Карачаевска"
+                            class="elements__image">
+                        <div class="elements__container">
+                            <h2 class="elements__title">Карачаевск</h2>
+                            <button type="button" class="elements__like-pic"></button>
+                        </div>
+                    </li>
+                    <li class="elements__item"><img src="./image/эльбрус.JPG" alt="пейзаж горы Эльбрус"
+                            class="elements__image">
+                        <div class="elements__container">
+                            <h2 class="elements__title">Гора Эльбрус</h2>
+                            <button type="button" class="elements__like-pic"></button>
+                        </div>
+                    </li>
+                    <li class="elements__item"><img src="./image/домбай.jpg" alt="пейзаж Домбая"
+                            class="elements__image">
+                        <div class="elements__container">
+                            <h2 class="elements__title">Домбай</h2>
+                            <button type="button" class="elements__like-pic"></button>
+                        </div>
+                    </li>
+                    <li class="elements__item"><img src="./image/липецк (1).jpeg" alt="пейзаж Липецка"
+                            class="elements__image">
+                        <div class="elements__container">
+                            <h2 class="elements__title">Липецк</h2>
+                            <button type="button" class="elements__like-pic"></button>
+                        </div>
+                    </li>
+                    <li class="elements__item"><img src="./image/piter1.jpg" alt="пейзаж Питера"
+                            class="elements__image">
+                        <div class="elements__container">
+                            <h2 class="elements__title">Питер</h2>
+                            <button type="button" class="elements__like-pic"></button>
+                        </div>
+                    </li>
+                    <li class="elements__item"><img src="./image/карачаевск.png.png" alt="пейзаж Карачаево-Черкессии"
+                            class="elements__image">
+                        <div class="elements__container">
+                            <h2 class="elements__title">Карачаево-Черкессия</h2>
+                            <button type="button" class="elements__like-pic"></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
         <footer class="footer">
             <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
         </footer>
-        <section class="popup popup_opened">
+        <section class="popup">
             <div class="popup__container">
                 <button type="button" class="popup__close"></button>
-                <form class="popup__form">
+                <form class="popup__form" name="popup__form-edit">
                     <h3 class="popup__title">Редактировать профиль</h3>
                     <div class="popup__storage">
-                        <div class="popup__field">
-                            <input name='name' type="text" class="popup__input popup__input_type_name"
-                                value='Жaк-Ив-Кусто'>
-                        </div>
-                        <div class="popup__field">
-                            <input name='job' type="text" class="popup__input popup__input_type_job"
-                                value="Иследователь">
-                        </div>
+                        <input name='name' type="text" class="popup__input popup__input_type_name">
+                    </div>
+                    <div class="popup__storage">
+                        <input name='job' type="text" class="popup__input popup__input_type_job">
                     </div>
                     <button type="submit" class="popup__submit">Сохранить</button>
                 </form>
@@ -93,6 +90,6 @@
         </section>
     </div>
 </body>
-<script type="text/javascript" src="./index.js"></script>
+<script type="text/javascript" src="./scripts/index.js"></script>
 
 </html>
