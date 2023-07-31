@@ -7,8 +7,8 @@ const popupCloseButton = popup.querySelector('.popup__close');
 let formElement = document.querySelector('.popup__form');
 let cardName = document.querySelector('.profile__title');
 let cardJob = document.querySelector('.profile__subtitle');
-let nameInput = popup.querySelector('.popup__input_name');
-let jobInput = popup.querySelector('.popup__input_job');
+let nameInput = popup.querySelector('.popup__input_type_name');
+let jobInput = popup.querySelector('.popup__input_type_job');
 
 //открытие и сохранение в переменных изначального значения 
 const popupOpen = function () {
